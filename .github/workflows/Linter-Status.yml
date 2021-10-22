@@ -1,4 +1,4 @@
-name: makeLint
+name: Linter-Status
 on: push
 jobs:
   my-job:
