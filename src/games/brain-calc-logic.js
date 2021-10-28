@@ -22,7 +22,7 @@ const getCalcExpression = (firstNumber, operator, secondNumber) => {
   return correctAnswer;
 };
 
-const getGameData = () => {
+const getData = () => {
   const firstNumber = getRandomInt(0, 100);
   const secondNumber = getRandomInt(0, 100);
   const indexOperator = getRandomInt(0, 3);
@@ -34,7 +34,7 @@ const getGameData = () => {
 
 const brainCalc = () => {
   const description = 'What is the result of the expression?';
-  runGame(description, getGameData);
+  runGame(description, getData);
 };
 
 export default brainCalc;
