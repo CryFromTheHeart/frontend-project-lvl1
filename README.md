@@ -7,3 +7,5 @@
 <a href="https://asciinema.org/a/lz1C5ml2mba1p4LXjQAipfQcq" target="_blank"><img src="https://asciinema.org/a/lz1C5ml2mba1p4LXjQAipfQcq.svg" /></a>
 игра Brain-Calc:
 <a href="https://asciinema.org/a/tEh6lU8ITDYWgl7UFAoo0ZKzs" target="_blank"><img src="https://asciinema.org/a/tEh6lU8ITDYWgl7UFAoo0ZKzs.svg" /></a>
+игра Brain-gcd:
+<a href="https://asciinema.org/a/F29bzMUVP5oKhZpPsgsicgIor" target="_blank"><img src="https://asciinema.org/a/F29bzMUVP5oKhZpPsgsicgIor.svg" /></a>{
