@@ -9,3 +9,5 @@
 <a href="https://asciinema.org/a/tEh6lU8ITDYWgl7UFAoo0ZKzs" target="_blank"><img src="https://asciinema.org/a/tEh6lU8ITDYWgl7UFAoo0ZKzs.svg" /></a>
 игра Brain-gcd:
 <a href="https://asciinema.org/a/F29bzMUVP5oKhZpPsgsicgIor" target="_blank"><img src="https://asciinema.org/a/F29bzMUVP5oKhZpPsgsicgIor.svg" /></a>
+игра Brain-progression:
+<a href="https://asciinema.org/a/VQvOVlFBOjlEGVX7TFVUysLbk" target="_blank"><img src="https://asciinema.org/a/VQvOVlFBOjlEGVX7TFVUysLbk.svg" /></a>
