@@ -13,7 +13,7 @@ const isPrime = (num) => {
 const getData = () => {
   const number = getRandomInt(0, 100);
   console.log(`Question: ${number}`);
-  const correctAnswer = (isPrime(number)) ? 'yes' : 'no' ;
+  const correctAnswer = (isPrime(number)) ? 'yes' : 'no';
   return correctAnswer;
 };
 
