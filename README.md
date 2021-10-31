@@ -11,3 +11,5 @@
 <a href="https://asciinema.org/a/F29bzMUVP5oKhZpPsgsicgIor" target="_blank"><img src="https://asciinema.org/a/F29bzMUVP5oKhZpPsgsicgIor.svg" /></a>
 игра Brain-progression:
 <a href="https://asciinema.org/a/VQvOVlFBOjlEGVX7TFVUysLbk" target="_blank"><img src="https://asciinema.org/a/VQvOVlFBOjlEGVX7TFVUysLbk.svg" /></a>
+игра Brain-Prime:
+<a href="https://asciinema.org/a/J12La4TU4MtPlQHbvmX77Ysdf" target="_blank"><img src="https://asciinema.org/a/J12La4TU4MtPlQHbvmX77Ysdf.svg" /></a>
