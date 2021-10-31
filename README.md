@@ -4,7 +4,7 @@
 ![Linter Status](https://github.com/CryFromTheHeart/frontend-project-lvl1/actions/workflows/Linter-Status.yml/badge.svg)
 
 игра Brain-even:
-<a href="https://asciinema.org/a/lz1C5ml2mba1p4LXjQAipfQcq" target="_blank"><img src="https://asciinema.org/a/lz1C5ml2mba1p4LXjQAipfQcq.svg" /></a>
+<a href="https://asciinema.org/a/Hge7iyikRQ6MM1KmllMBTsti1" target="_blank"><img src="https://asciinema.org/a/Hge7iyikRQ6MM1KmllMBTsti1.svg" /></a>
 игра Brain-Calc:
 <a href="https://asciinema.org/a/tEh6lU8ITDYWgl7UFAoo0ZKzs" target="_blank"><img src="https://asciinema.org/a/tEh6lU8ITDYWgl7UFAoo0ZKzs.svg" /></a>
 игра Brain-gcd:
