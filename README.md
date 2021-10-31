@@ -10,7 +10,7 @@
 4)"Арифметическая прогрессия" (brain-progression)
 5)"Простое ли число?" (brain-prime)
 Чтобы установить игры в консоли напишите 'make install'. После этого можно запустить 1 из 5 игр, для этого напишите в консоли название в скобках. 
-
+Примеры установки и запуска игр:
 игра Brain-even:
 <a href="https://asciinema.org/a/Hge7iyikRQ6MM1KmllMBTsti1" target="_blank"><img src="https://asciinema.org/a/Hge7iyikRQ6MM1KmllMBTsti1.svg" /></a>
 игра Brain-Calc:
