@@ -16,7 +16,7 @@ const runGame = (description, getData) => {
     console.log('Correct!');
     wonRoundCount += 1;
   }
-  return console.log(`Congratulation, ${name}!`);
+  return console.log(`Congratulations, ${name}!`);
 };
 
 export default runGame;
