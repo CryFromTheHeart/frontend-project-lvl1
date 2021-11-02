@@ -21,7 +21,7 @@ const getCalcExpression = (firstNumber, operator, secondNumber) => {
 const getData = () => {
   const firstNumber = getRandomInt(0, 100);
   const secondNumber = getRandomInt(0, 100);
-  const indexOperator = getRandomInt(0, 3);
+  const indexOperator = getRandomInt(0, 2);
   const currentOperator = operators[indexOperator];
   const question = (`${firstNumber} ${currentOperator} ${secondNumber}`);
   const correctAnswer = String(getCalcExpression(firstNumber, currentOperator, secondNumber));
