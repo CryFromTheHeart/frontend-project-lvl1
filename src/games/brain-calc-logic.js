@@ -7,7 +7,7 @@ const operators = ['+', '-', '*'];
 const getCalcExpression = (firstNumber, operator, secondNumber) => {
   switch (operator) {
     case '+':
-      return firstNumber + secondNumber; 
+      return firstNumber + secondNumber;
     case '-':
       return firstNumber - secondNumber;
     case '*':
@@ -15,6 +15,7 @@ const getCalcExpression = (firstNumber, operator, secondNumber) => {
     default:
       console.log(`operation ${operator} is not supported`);
   }
+  return false;
 };
 
 const getData = () => {
