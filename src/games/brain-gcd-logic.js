@@ -14,8 +14,8 @@ const getData = () => {
   const numberOne = getRandomInt(0, 100);
   const numberTwo = getRandomInt(0, 100);
   const question = (`${numberOne} ${numberTwo}`);
-  const correctAnswer = String(getGreatestCommonDivisor(numberOne, numberTwo));
-  return [correctAnswer, question];
+  const correctAnswer = getGreatestCommonDivisor(numberOne, numberTwo);
+  return [String(correctAnswer), question];
 };
 
 const brainGreatestCommonDivisor = () => {
