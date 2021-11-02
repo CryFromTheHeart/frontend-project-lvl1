@@ -1,6 +1,8 @@
 import getRandomInt from '../getRandomInt.js';
 import runGame from '../index.js';
 
+const description = 'What number is missing in the progression?';
+
 const getProgression = (firstMemberProgression, progressionStep, numberOfTheGuessNumber) => {
   const maxStep = 10;
   let stringNumbers = '';
@@ -9,9 +11,9 @@ const getProgression = (firstMemberProgression, progressionStep, numberOfTheGues
     const currentMember = firstMemberProgression + (progressionStep * countProgressionStep);
     if (numberOfTheGuessNumber === countProgressionStep) {
       guessNumber = currentMember;
-      stringNumbers = `${stringNumbers} ..`;
+      stringNumbers = `${stringNumbers}.. `;
     } else {
-      stringNumbers = `${stringNumbers} ${currentMember}`;
+      stringNumbers = `${stringNumbers}${currentMember} `;
     }
   }
   return [String(guessNumber), stringNumbers];
@@ -22,12 +24,11 @@ const getData = () => {
   const progressionStep = getRandomInt(2, 10);
   const numberGuessNumber = getRandomInt(2, 10);
   const [guessNumber, question] = getProgression(firstMember, progressionStep, numberGuessNumber);
-  console.log(`Question:${question}`);
-  return guessNumber;
+  const question = (`${question}`);
+  return [guessNumber, question];
 };
 
 const brainProgression = () => {
-  const description = 'What number is missing in the progression?';
   runGame(description, getData);
 };
 

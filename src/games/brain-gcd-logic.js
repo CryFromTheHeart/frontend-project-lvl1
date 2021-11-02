@@ -1,6 +1,8 @@
 import runGame from '../index.js';
 import getRandomInt from '../getRandomInt.js';
 
+const description = 'Find the greatest common divisor of given numbers.';
+
 const getGreatestCommonDivisor = (numberOne, numberTwo) => {
   if (numberOne % numberTwo === 0) {
     return numberTwo;
@@ -11,18 +13,12 @@ const getGreatestCommonDivisor = (numberOne, numberTwo) => {
 const getData = () => {
   const numberOne = getRandomInt(0, 100);
   const numberTwo = getRandomInt(0, 100);
-  console.log(`Question: ${numberOne} ${numberTwo}`);
-  let correctAnswer = '1';
-  if (numberOne > numberTwo) {
-    correctAnswer = getGreatestCommonDivisor(numberOne, numberTwo);
-  } else {
-    correctAnswer = getGreatestCommonDivisor(numberTwo, numberOne);
-  }
-  return String(correctAnswer);
+  const question(`${numberOne} ${numberTwo}`);
+  const correctAnswer = String(getGreatestCommonDivisor(numberOne, numberTwo));
+  return [correctAnswer, question];
 };
 
 const brainGreatestCommonDivisor = () => {
-  const description = 'Find the greatest common divisor of given numbers.';
   runGame(description, getData);
 };
 

@@ -1,25 +1,20 @@
 import runGame from '../index.js';
 import getRandomInt from '../getRandomInt.js';
 
+const description = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 
 const getCalcExpression = (firstNumber, operator, secondNumber) => {
-  let correctAnswer;
-
   switch (operator) {
     case '+':
-      correctAnswer = firstNumber + secondNumber;
-      break;
+      return firstNumber + secondNumber; 
     case '-':
-      correctAnswer = firstNumber - secondNumber;
-      break;
+      return firstNumber - secondNumber;
     case '*':
-      correctAnswer = firstNumber * secondNumber;
-      break;
+      return firstNumber * secondNumber;
     default:
-      correctAnswer = 0;
+      console.log(`operation ${operator} is not supported`);
   }
-  return correctAnswer;
 };
 
 const getData = () => {
@@ -27,13 +22,12 @@ const getData = () => {
   const secondNumber = getRandomInt(0, 100);
   const indexOperator = getRandomInt(0, 3);
   const currentOperator = operators[indexOperator];
-  console.log(`Question: ${firstNumber} ${currentOperator} ${secondNumber}`);
-  const correctAnswer = getCalcExpression(firstNumber, currentOperator, secondNumber);
-  return String(correctAnswer);
+  const question = (`${firstNumber} ${currentOperator} ${secondNumber}`);
+  const correctAnswer = String(getCalcExpression(firstNumber, currentOperator, secondNumber));
+  return [correctAnswer, question];
 };
 
 const brainCalc = () => {
-  const description = 'What is the result of the expression?';
   runGame(description, getData);
 };
 

@@ -1,6 +1,8 @@
 import runGame from '../index.js';
 import getRandomInt from '../getRandomInt.js';
 
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+
 const isPrime = (num) => {
   for (let divisor = 2; divisor <= num / 2; divisor += 1) {
     if (num % divisor === 0) {
@@ -12,13 +14,12 @@ const isPrime = (num) => {
 
 const getData = () => {
   const number = getRandomInt(0, 100);
-  console.log(`Question: ${number}`);
+  const question(`${number}`);
   const correctAnswer = (isPrime(number)) ? 'yes' : 'no';
-  return correctAnswer;
+  return [correctAnswer, question];
 };
 
 const brainPrime = () => {
-  const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
   runGame(description, getData);
 };
 
