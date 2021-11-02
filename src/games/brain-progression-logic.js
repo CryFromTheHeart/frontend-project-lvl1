@@ -24,7 +24,6 @@ const getData = () => {
   const progressionStep = getRandomInt(2, 10);
   const numberGuessNumber = getRandomInt(2, 10);
   const [guessNumber, question] = getProgression(firstMember, progressionStep, numberGuessNumber);
-  const question = (`${question}`);
   return [guessNumber, question];
 };
 
