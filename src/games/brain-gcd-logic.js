@@ -11,8 +11,8 @@ const getGreatestCommonDivisor = (numberOne, numberTwo) => {
 }; // использовал Алгоритм Евклида
 
 const getData = () => {
-  const numberOne = getRandomInt(0, 100);
-  const numberTwo = getRandomInt(0, 100);
+  const numberOne = getRandomInt(1, 100);
+  const numberTwo = getRandomInt(1, 100);
   const question = (`${numberOne} ${numberTwo}`);
   const correctAnswer = getGreatestCommonDivisor(numberOne, numberTwo);
   return [String(correctAnswer), question];
