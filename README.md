@@ -12,7 +12,7 @@
 Чтобы установить игры в консоли напишите 'make install'. После этого можно запустить 1 из 5 игр, для этого напишите в консоли название в скобках. 
 Примеры установки и запуска игр:
 игра Brain-even:
-<a href="https://asciinema.org/a/Hge7iyikRQ6MM1KmllMBTsti1" target="_blank"><img src="https://asciinema.org/a/Hge7iyikRQ6MM1KmllMBTsti1.svg" /></a>
+<a href="https://asciinema.org/a/Vfou9k1X34VkqBg67JPlgluCf" target="_blank"><img src="https://asciinema.org/a/Vfou9k1X34VkqBg67JPlgluCf.svg" /></a>
 игра Brain-Calc:
 <a href="https://asciinema.org/a/tEh6lU8ITDYWgl7UFAoo0ZKzs" target="_blank"><img src="https://asciinema.org/a/tEh6lU8ITDYWgl7UFAoo0ZKzs.svg" /></a>
 игра Brain-gcd:
