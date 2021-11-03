@@ -13,9 +13,8 @@ const getCalcExpression = (operand1, operand2, operator) => {
     case '*':
       return operand1 * operand2;
     default:
-      throw new Error(`operation ${operation} is not supported`);
+      throw new Error(`operation ${operator} is not supported`);
   }
-  return false;
 };
 
 const getData = () => {
