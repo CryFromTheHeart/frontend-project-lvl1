@@ -2,9 +2,9 @@ import getRandomInt from '../getRandomInt.js';
 import runGame from '../index.js';
 
 const description = 'What number is missing in the progression?';
+const maxStep = 10;
 
 const getProgression = (firstMemberProgression, progressionStep, numberOfTheGuessNumber) => {
-  const maxStep = 10;
   let stringNumbers = '';
   let guessNumber = 0;
   for (let countProgressionStep = 1; countProgressionStep <= maxStep; countProgressionStep += 1) {
